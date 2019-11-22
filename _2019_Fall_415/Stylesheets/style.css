@@ -1,0 +1,168 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: relative;
+    background-color: #000;
+}
+
+    body::after {
+        content: "";
+        background: url('../img/headerbackground.JPG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.3;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    color: white;
+    font-weight:200;
+}
+h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: white;
+    font-weight:200;
+}
+p, span {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+table {
+    margin:auto;
+}
+td {
+    text-align:left;
+    padding: 5px;
+}
+.button {
+    background: none;
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+}
+
+    .button:hover {
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+    }
+.label {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+input[type=text].textbox {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size:16px;
+    padding:3px;
+}
+.ddl {
+    background: none;
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width:150px;
+}
+    .ddl:hover {
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+    }
+.gridview {
+    background-color:white;
+    color:rgb(31,31,31);
+    border:3px solid black;
+}
+.gridview a {
+    background-color:transparent;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    padding:5px;
+}
+.gridview a:hover {
+    background-color:white;
+    color:black;
+}
+.gridview span {
+    background-color:rgb(76, 94, 255);
+    color:white;
+    padding:5px;
+}
+.gridview th,td {
+    padding:5px;
+}
+.gridviewheader {
+    background-color: rgb(24, 24, 24);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    border: 0px none transparent;
+    text-align: left;
+    font-size: 18px;
+}
+.gridviewrows {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(31,31,31);
+    border: 0px none transparent;
+    text-align: left;
+    font-size: 18px;
+}
+.gridviewpager {
+    background-color: rgb(31,31,31);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 0px none transparent;
+    text-align: left;
+    font-size: 18px;
+}
+.content {
+    width: 85vw;
+    margin: auto;
+    padding: 25px 0;
+    text-align: center;
+}
+.ddldisabled {
+    background: none;
+    border: 3px solid white;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+}
+
+    .ddldisabled:hover {
+        background-color: white;
+        color: gray;
+        border: 3px solid black;
+    }
